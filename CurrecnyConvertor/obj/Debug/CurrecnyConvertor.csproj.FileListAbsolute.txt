@@ -1,0 +1,10 @@
+C:\Users\Richard\OneDrive\Documents\GitHub\CurrecnyConvertor\bin\Debug\CurrecnyConvertor.exe.config
+C:\Users\Richard\OneDrive\Documents\GitHub\CurrecnyConvertor\bin\Debug\CurrecnyConvertor.exe
+C:\Users\Richard\OneDrive\Documents\GitHub\CurrecnyConvertor\bin\Debug\CurrecnyConvertor.pdb
+C:\Users\Richard\OneDrive\Documents\GitHub\CurrecnyConvertor\obj\Debug\CurrecnyConvertor.csprojAssemblyReference.cache
+C:\Users\Richard\OneDrive\Documents\GitHub\CurrecnyConvertor\obj\Debug\CurrecnyConvertor.Form1.resources
+C:\Users\Richard\OneDrive\Documents\GitHub\CurrecnyConvertor\obj\Debug\CurrecnyConvertor.Properties.Resources.resources
+C:\Users\Richard\OneDrive\Documents\GitHub\CurrecnyConvertor\obj\Debug\CurrecnyConvertor.csproj.GenerateResource.cache
+C:\Users\Richard\OneDrive\Documents\GitHub\CurrecnyConvertor\obj\Debug\CurrecnyConvertor.csproj.CoreCompileInputs.cache
+C:\Users\Richard\OneDrive\Documents\GitHub\CurrecnyConvertor\obj\Debug\CurrecnyConvertor.exe
+C:\Users\Richard\OneDrive\Documents\GitHub\CurrecnyConvertor\obj\Debug\CurrecnyConvertor.pdb
