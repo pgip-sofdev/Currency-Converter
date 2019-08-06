@@ -33,7 +33,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.Result = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.FromTxt = new System.Windows.Forms.TextBox();
@@ -57,6 +57,7 @@
             this.Run.TabIndex = 4;
             this.Run.Text = "Run";
             this.Run.UseVisualStyleBackColor = true;
+            this.Run.Click += new System.EventHandler(this.Run_Click);
             // 
             // label1
             // 
@@ -85,12 +86,13 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "Result";
             // 
-            // textBox1
+            // Result
             // 
-            this.textBox1.Location = new System.Drawing.Point(270, 251);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 3;
+            this.Result.Location = new System.Drawing.Point(270, 251);
+            this.Result.Name = "Result";
+            this.Result.ReadOnly = true;
+            this.Result.Size = new System.Drawing.Size(100, 22);
+            this.Result.TabIndex = 3;
             // 
             // comboBox1
             // 
@@ -126,7 +128,7 @@
             this.Controls.Add(this.FromTxt);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.Result);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -146,7 +148,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox Result;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.TextBox FromTxt;
