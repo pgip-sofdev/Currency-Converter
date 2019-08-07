@@ -29,7 +29,7 @@ namespace CurrecnyConvertor
 
         private void Run_Click(object sender, EventArgs e)
         {
-
+            Result.Text = FromTxt.ToString();
         }
     }
 }
