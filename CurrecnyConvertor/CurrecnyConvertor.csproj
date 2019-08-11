@@ -340,6 +340,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="currencyDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>currencyDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="currencyDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>currencyDataSet11.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -360,6 +370,28 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="currencyDataSet1.xsc">
+      <DependentUpon>currencyDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="currencyDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>currencyDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="currencyDataSet1.xss">
+      <DependentUpon>currencyDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="currencyDataSet11.xsc">
+      <DependentUpon>currencyDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="currencyDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>currencyDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="currencyDataSet11.xss">
+      <DependentUpon>currencyDataSet11.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
