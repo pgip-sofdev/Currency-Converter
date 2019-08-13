@@ -31,5 +31,10 @@ namespace CurrecnyConvertor
         {
             Result.Text = FromTxt.ToString();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

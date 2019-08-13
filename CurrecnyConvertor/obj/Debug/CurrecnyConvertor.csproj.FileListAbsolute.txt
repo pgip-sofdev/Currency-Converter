@@ -102,11 +102,10 @@ C:\Users\Richard\Source\Repos\pgip-sofdev\Mobile-App\CurrecnyConvertor\bin\Debug
 C:\Users\Richard\Source\Repos\pgip-sofdev\Mobile-App\CurrecnyConvertor\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\Richard\Source\Repos\pgip-sofdev\Mobile-App\CurrecnyConvertor\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Richard\Source\Repos\pgip-sofdev\Mobile-App\CurrecnyConvertor\bin\Debug\System.Text.Encodings.Web.xml
-C:\Users\Richard\Source\Repos\pgip-sofdev\Mobile-App\CurrecnyConvertor\obj\Debug\CurrecnyConvertor.csprojAssemblyReference.cache
+C:\Users\Richard\Source\Repos\pgip-sofdev\Mobile-App\CurrecnyConvertor\obj\Debug\CurrecnyConvertor.csprojResolveAssemblyReference.cache
 C:\Users\Richard\Source\Repos\pgip-sofdev\Mobile-App\CurrecnyConvertor\obj\Debug\CurrecnyConvertor.Form1.resources
 C:\Users\Richard\Source\Repos\pgip-sofdev\Mobile-App\CurrecnyConvertor\obj\Debug\CurrecnyConvertor.Properties.Resources.resources
-C:\Users\Richard\Source\Repos\pgip-sofdev\Mobile-App\CurrecnyConvertor\obj\Debug\CurrecnyConvertor.csproj.GenerateResource.cache
+C:\Users\Richard\Source\Repos\pgip-sofdev\Mobile-App\CurrecnyConvertor\obj\Debug\CurrecnyConvertor.csproj.GenerateResource.Cache
 C:\Users\Richard\Source\Repos\pgip-sofdev\Mobile-App\CurrecnyConvertor\obj\Debug\CurrecnyConvertor.csproj.CoreCompileInputs.cache
-C:\Users\Richard\Source\Repos\pgip-sofdev\Mobile-App\CurrecnyConvertor\obj\Debug\CurrecnyConvertor.csproj.CopyComplete
 C:\Users\Richard\Source\Repos\pgip-sofdev\Mobile-App\CurrecnyConvertor\obj\Debug\CurrecnyConvertor.exe
 C:\Users\Richard\Source\Repos\pgip-sofdev\Mobile-App\CurrecnyConvertor\obj\Debug\CurrecnyConvertor.pdb
