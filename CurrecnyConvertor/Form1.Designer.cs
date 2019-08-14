@@ -34,8 +34,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.Result = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.FromCombo = new System.Windows.Forms.ComboBox();
+            this.ToCombo = new System.Windows.Forms.ComboBox();
             this.FromTxt = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
@@ -94,29 +94,27 @@
             this.Result.Size = new System.Drawing.Size(100, 22);
             this.Result.TabIndex = 3;
             // 
-            // comboBox1
+            // FromCombo
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Currency",
+            this.FromCombo.FormattingEnabled = true;
+            this.FromCombo.Items.AddRange(new object[] {
             "US Dollar",
             "Bitcoin"});
-            this.comboBox1.Location = new System.Drawing.Point(47, 98);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 24);
-            this.comboBox1.TabIndex = 0;
+            this.FromCombo.Location = new System.Drawing.Point(47, 98);
+            this.FromCombo.Name = "FromCombo";
+            this.FromCombo.Size = new System.Drawing.Size(121, 24);
+            this.FromCombo.TabIndex = 0;
             // 
-            // comboBox2
+            // ToCombo
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "Currency",
+            this.ToCombo.FormattingEnabled = true;
+            this.ToCombo.Items.AddRange(new object[] {
             "US Dollar",
             "Bitcoin"});
-            this.comboBox2.Location = new System.Drawing.Point(47, 247);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 24);
-            this.comboBox2.TabIndex = 2;
+            this.ToCombo.Location = new System.Drawing.Point(47, 247);
+            this.ToCombo.Name = "ToCombo";
+            this.ToCombo.Size = new System.Drawing.Size(121, 24);
+            this.ToCombo.TabIndex = 2;
             // 
             // FromTxt
             // 
@@ -134,8 +132,8 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.ControlBox = false;
             this.Controls.Add(this.FromTxt);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.ToCombo);
+            this.Controls.Add(this.FromCombo);
             this.Controls.Add(this.Result);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -158,8 +156,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox Result;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox FromCombo;
+        private System.Windows.Forms.ComboBox ToCombo;
         private System.Windows.Forms.TextBox FromTxt;
     }
 }

@@ -22,19 +22,27 @@ namespace CurrecnyConvertor
             this.Close();
         }
 
-        private void ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void Run_Click(object sender, EventArgs e)
         {
-            Result.Text = FromTxt.ToString();
+            Convert();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+        void Convert()
+        {
+            
+            if (FromCombo.SelectedText.ToString() == "US Dollar")
+            {
+                
+                Result.Text = ;
+            }
+            else
+            {
+                Result.Text = FromTxt.Text;
+            }
         }
     }
 }
