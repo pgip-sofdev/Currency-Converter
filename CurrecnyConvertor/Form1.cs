@@ -24,24 +24,26 @@ namespace CurrecnyConvertor
 
         private void Run_Click(object sender, EventArgs e)
         {
-            Convert();
+            Convertor();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
 
         }
-        void Convert()
+        void Convertor()
         {
-            
+            FromNum.
+            double From = FromNum;
             if (FromCombo.SelectedText.ToString() == "US Dollar")
             {
-                
-                Result.Text = ;
+                double result = From * 0.000088;
+                Result.Text = result.ToString();
             }
             else
             {
-                Result.Text = FromTxt.Text;
+                double result = From / 0.000088;
+                Result.Text = result.ToString();
             }
         }
     }

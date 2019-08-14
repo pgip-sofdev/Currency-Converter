@@ -36,7 +36,8 @@
             this.Result = new System.Windows.Forms.TextBox();
             this.FromCombo = new System.Windows.Forms.ComboBox();
             this.ToCombo = new System.Windows.Forms.ComboBox();
-            this.FromTxt = new System.Windows.Forms.TextBox();
+            this.FromNum = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.FromNum)).BeginInit();
             this.SuspendLayout();
             // 
             // Exit
@@ -116,13 +117,12 @@
             this.ToCombo.Size = new System.Drawing.Size(121, 24);
             this.ToCombo.TabIndex = 2;
             // 
-            // FromTxt
+            // FromNum
             // 
-            this.FromTxt.Location = new System.Drawing.Point(270, 98);
-            this.FromTxt.Name = "FromTxt";
-            this.FromTxt.Size = new System.Drawing.Size(100, 22);
-            this.FromTxt.TabIndex = 1;
-            this.FromTxt.WordWrap = false;
+            this.FromNum.Location = new System.Drawing.Point(270, 100);
+            this.FromNum.Name = "FromNum";
+            this.FromNum.Size = new System.Drawing.Size(120, 22);
+            this.FromNum.TabIndex = 6;
             // 
             // Form1
             // 
@@ -131,7 +131,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.ControlBox = false;
-            this.Controls.Add(this.FromTxt);
+            this.Controls.Add(this.FromNum);
             this.Controls.Add(this.ToCombo);
             this.Controls.Add(this.FromCombo);
             this.Controls.Add(this.Result);
@@ -143,6 +143,7 @@
             this.Name = "Form1";
             this.Text = "Convertor";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.FromNum)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -158,7 +159,7 @@
         private System.Windows.Forms.TextBox Result;
         private System.Windows.Forms.ComboBox FromCombo;
         private System.Windows.Forms.ComboBox ToCombo;
-        private System.Windows.Forms.TextBox FromTxt;
+        private System.Windows.Forms.NumericUpDown FromNum;
     }
 }
 
